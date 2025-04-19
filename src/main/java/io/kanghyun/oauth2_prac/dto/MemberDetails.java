@@ -31,7 +31,6 @@ public class MemberDetails implements OAuth2User {
         this.attributes = attributes;
         this.role = role;
     }
-
     // 유저 권한 정보 반환
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
