@@ -49,5 +49,4 @@ public class MemberService extends DefaultOAuth2UserService {
             throw new RuntimeException();
         }
     }
-
 }
