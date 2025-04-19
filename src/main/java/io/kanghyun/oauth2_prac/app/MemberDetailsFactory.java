@@ -40,6 +40,7 @@ public class MemberDetailsFactory {
                         .build();
             }
             default -> throw new IllegalStateException("지원하지 않는 제공자 : " + provider);
+
         }
     }
 }
